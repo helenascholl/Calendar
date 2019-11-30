@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/main.js"></script>
+</head>
+<body>
+    <div id="controls">
+        <div id="left">
+            <button id="backToToday">Today</button>
+        </div>
+
+        <div id="middle">
+            <button id="back" class="material-icons">chevron_left</button>
+            <span id="monthName"></span>
+            <button id="next" class="material-icons">chevron_right</button>
+        </div>
+
+        <div id="right"></div>
+    </div>
+
+    <div id="month"></div>
+
+    <div id="eventInfo" class="hidden">
+        <i id="close" class="material-icons">close</i>
+        <h1 id="subject"></h1>
+        <p id="startDate"></p>
+        <p id="startTime"></p>
+        <p id="endDate"></p>
+        <p id="endTime"></p>
+        <p id="allDay"></p>
+        <p id="private"></p>
+    </div>
+</body>
+</html>

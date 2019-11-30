@@ -1,0 +1,147 @@
+html {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#month {
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 3vmin auto auto auto auto;
+}
+
+.day {
+    border: 0.1vmax solid rgb(201, 201, 201);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0.5vmin;
+    font-size: 1.5vmin;
+}
+
+.dayInMonth {
+    color: rgb(99, 99, 99);
+}
+
+.dayNotInMonth {
+    color: rgb(170, 170, 170);
+}
+
+#today {
+    border: 0.3vmax solid rgb(47, 161, 255);
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(99, 99, 99);
+    font-size: 1.5vmin;
+}
+
+#controls {
+    width: 90vw;
+    height: 10vh;
+    margin: auto;
+    font-size: 2vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left, #right {
+    width: 25vw;
+}
+
+#middle {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#middle button {
+    margin: 0 2vmin;
+}
+
+#right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+button {
+    height: 4vmin;
+    border: 0.3vmin solid rgb(47, 161, 255);
+    border-radius: 1vmin;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-size: 2vmin;
+    cursor: pointer;
+    transition: background-color 200ms;
+}
+
+button:hover {
+    background-color: rgb(47, 161, 255);
+}
+
+button.material-icons {
+    width: 4vmin;
+    border-radius: 50%;
+    display: inline-flex;
+    font-size: 2.7vmin;
+}
+
+.event {
+    height: 3vmin;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.5vmin;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(47, 161, 255);
+    cursor: pointer;
+}
+
+#eventInfo {
+    width: 50vw;
+    height: 40vh;
+    background-color: white;
+    border: 0.1vmin solid lightgray;
+    border-radius: 1vmin;
+    position: absolute;
+    top: 30vh;
+    left: 25vw;
+    padding: 4vmin;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3vmin;
+    margin: 0 0 4vmin 0;
+}
+
+p {
+    font-size: 1.9vmin;
+}
+
+#close {
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    top: 1vmin;
+    right: 1vmin;
+    font-size: 4vmin;
+}

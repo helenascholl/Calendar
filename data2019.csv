@@ -1,0 +1,10 @@
+Subject;Start Date;Start Time;End Date;End Time;All day event;Private
+Staatsfeiertag;05/01/20;12:00:00;05/02/20;12:00:00;True;False;False
+AnfangSemesterferien;02/15/20;12:00:00;02/15/20;12:00:00;True;False;False
+Ende Semesterferien;02/23/20;12:00:00;02/23/20;12:00:00;True;False;False
+Übungsabgabe MEDT;03/01/20;00:00:00;03/01/20;00:00:10;True;False;False
+Übungsabgabe MEDT;11/11/19;00:00:00;11/11/19;00:00:10;True;False;False
+Übungsabgabe MEDT;11/18/19;00:00:00;11/18/19;00:00:10;True;False;False
+Übungsabgabe MEDT;11/25/19;00:00:00;11/25/19;00:00:10;True;False;False
+Übungsabgabe MEDT;12/12/19;00:00:00;12/11/19;00:00:10;True;False;False
+Weihnachten;12/24/19;00:00:00;12/24/19;00:00:10;True;False;False
